@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./master.css">
+  <body>
+    <div id="menu" class="textOnly">
+      <h1>Reddit Text-to-Speech Generator</h1>
+      <h3>Why make good YouTube content when you can just put text-to-speech over reddit content?</h3>
+      <p>Enter a subreddit name below</p>
+      <input id="subreddit" type="text" name="" value="" placeholder="eg. mildlyinteresting">
+      <button id="start" type="button" name="button">Go</button>
+      <h4 id="error">Error 404 page not found</h4>
+    </div>
+    <div id="redditcontent" class="textOnly">
+      <h1 id="redditText"></h1>
+      <h5 id="redditUser"></h5>
+      <div id="imgCont">
+      </div>
+    </div>
+    <h4 id="contentcredit">Lazy content generator. By debelsoftware</h4>
+  </body>
+  <script src="./reddittts.js" charset="utf-8"></script>
+</html>

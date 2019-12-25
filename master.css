@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lexend+Deca&display=swap');
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+html,body{
+  margin: 0;
+  padding: 0;
+  background-color: #FF5700;
+}
+h1,h2,h3,h4,h5,p{
+  font-family: 'Lexend Deca', sans-serif;
+  color: white;
+}
+.textOnly{
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: block;
+  margin: auto;
+  width: 90%;
+  max-width: 1500px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#redditImg{
+  max-height: 50vh;
+  border: 5px solid white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 90px;
+}
+#contentcredit{
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+}
+#redditcontent{
+  display: none;
+}
+#menu>h3{
+  font-family: 'Indie Flower', cursive;
+}
+button{
+  background-color: #e32424;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+}
+button:hover{
+  cursor: pointer;
+}
+input{
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  font-family: 'Lexend Deca', sans-serif;
+  outline: none;
+}
+#error{
+  margin: 10px auto 0 auto;
+  width: 60%;
+  display: none;
+  background-color: #e32424;
+  border-radius: 5px;
+  padding: 5px;
+}
